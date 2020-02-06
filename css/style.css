@@ -58,3 +58,6 @@ a {
   color: white;
   text-align: center;
 }
+a:hover {
+  color: red;
+}
