@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Import components */
+@import "./components/cards.css";
+@import "./components/buttons.css";
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.header {
+  padding: 60px;
+  background-image: url("https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38;
+  font-weight: bolder;
+  text-shadow: 1px 1px #f9d71c;
+}
+
+.header p {
+  font-family: 'Merriweather', serif;
+  font-size: 20;
+  color: turquoise;
+}
+
+.footer {
+  width: 100%;
+  background-color: #C39E8B;
+  color: white;
+  text-align: center;
+}
